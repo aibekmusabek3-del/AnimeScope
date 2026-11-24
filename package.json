@@ -1,0 +1,10 @@
+{
+  "name": "animescope",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=20.19.0"},
+  "scripts": {"build": "vite build", "test": "node --test tests/js/*.test.js"},
+  "dependencies": {"react": "^19.0.0", "react-dom": "^19.0.0"},
+  "devDependencies": {"vite": "^6.3.5", "@vitejs/plugin-react": "^4.4.1", "laravel-vite-plugin": "^1.2.0"}
+}
